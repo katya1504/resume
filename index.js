@@ -1,19 +1,19 @@
 function show(){
     if (window.innerWidth <= 700){
-        gsap.to('.one', {x: 10,duration: 20, delay: 0.4, rotation: 360, stagger: 1 });
-        gsap.to('.two', {x: 30,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.three', {x: 60,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.foir', {x: 90,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.five', {x: 120,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.six', {x: 150,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__one', {x: 10,duration: 20, delay: 0.4, rotation: 360, stagger: 1 });
+        gsap.to('.animation__two', {x: 30,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__three', {x: 60,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__foir', {x: 90,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__five', {x: 120,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__six', {x: 150,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
     }
     else{
-        gsap.to('.one', {x: 350,duration: 20, delay: 0.4, rotation: 360, stagger: 1 });
-        gsap.to('.two', {x: 450,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.three', {x: 550,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.foir', {x: 650,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.five', {x: 750,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
-        gsap.to('.six', {x: 850,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__one', {x: 350,duration: 20, delay: 0.4, rotation: 360, stagger: 1 });
+        gsap.to('.animation__two', {x: 450,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__three', {x: 550,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__foir', {x: 650,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__five', {x: 750,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
+        gsap.to('.animation__six', {x: 850,duration: 20, delay: 0.4, rotation: 360, stagger: 1});
     }
 }
 show()

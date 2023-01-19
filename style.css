@@ -1,5 +1,5 @@
 body{
-background-color: rgb(71, 71, 71);
+background-color: rgb(51, 60, 75);
 }
 
 
@@ -8,7 +8,7 @@ background-color: rgb(71, 71, 71);
     flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
-background-color: rgb(92, 138, 162);
+background-color: rgb(127, 177, 204);
 width: 100%;
 }
 
@@ -32,11 +32,11 @@ justify-content: center;
 
 span{
     justify-content: center;
-    color: rgb(243, 128, 62);
+    color: rgb(243, 127, 12);
     text-transform: uppercase;
-    animation: ani 4s ease forwards infinite;
+    animation: ani 6s ease forwards infinite;
     font-size: 70px;
-    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
 }
 
 span:nth-child(1){
@@ -96,10 +96,10 @@ span:nth-child(18){
 
 @keyframes ani{
     0%, 100%{
-        text-shadow: 0 0 0 rgb(58, 69, 82);
+        text-shadow: 0 0 0 rgb(18, 21, 25);
     }
     50%{
-        text-shadow: 0 30px 10px rgb(43, 51, 69);
+        text-shadow: 0 30px 10px rgb(19, 22, 30);
     }
     }
 
@@ -119,7 +119,7 @@ h1, h3, h4, br, p{
 }
 
 .block__profession{
-    color: #FFF;
+    color: rgb(170, 222, 250);
     margin-left: 50px;
 }
 
@@ -187,7 +187,7 @@ border: none;
 }
 
 .Paragraph__contacts{
-    background-color: rgb(92, 138, 162);
+    background-color:rgb(127, 177, 204);
     width: 100%;
     margin-top: 4rem;
 text-align: center;
